@@ -1,0 +1,115 @@
+#####################for system##################################################
+alias bashrc='subl ~/.bashrc'
+alias fresh='. ~/.bashrc'
+alias click='sudo apt-get install nautilus-open-terminal' #open termial with right clicking
+alias flash='cd ~/Downloads && tar -zxvf install_flash_player_11_linux.x86_64.tar.gz && sudo cp libflashplayer.so /usr/lib/mozilla/plugins/' #install flash
+
+
+####################for knowledge################################################
+alias open='xdg-open '
+alias os='xdg-open ~/Downloads/pdf/os-3.pdf'
+alias lix='xdg-open ~/Downloads/pdf/linux.pdf'
+alias shel='xdg-open ~/Downloads/pdf/shell.pdf'
+alias mng='xdg-open ~/Downloads/pdf/mongodb.pdf'
+alias sql='xdg-open ~/Downloads/pdf/sql.pdf'
+alias net='xdg-open ~/Downloads/pdf/net-5.pdf'
+
+
+####################for use######################################################
+#---------------collect file------------------------
+alias mdoc='sudo mv *.doc *.docx doc'
+alias mppt='sudo mv *.ppt *.pptx ppt'
+alias mxls='sudo mv *.xls *.xlsx xls'
+alias mpdf='sudo mv *.pdf pdf'
+alias mdeb='sudo mv *.deb deb'
+alias mrar='sudo mv *.rar rar'
+alias mzip='sudo mv *.zip zip'
+alias mgz='sudo mv *.gz gz'
+alias mso='sudo mv *.so so'
+alias mtxt='sudo mv *.txt txt'
+alias mimg='sudo mv *.jpg *.png *.jpeg img'
+
+#---------------cd area-----------------------------
+alias down='cd ~/Downloads'
+alias doc='cd ~/Documents'
+alias pic='cd ~/Pictures'
+alias desk='cd ~/Desktop'
+alias src='cd /usr/src'
+
+#---------------lamp area---------------------------
+alias apache_start='sudo /etc/init.d/apache2 start'
+alias apache_start2='sudo service httpd start'
+alias apache_restart='sudo /etc/init.d/apache2 restart'
+alias apache_stop='sudo /etc/init.d/apache2 stop'
+alias mysql_start='sudo service mysql start'
+alias mysql_restart='sudo service mysql restart'
+alias mysql_stop='sudo service mysql stop'
+
+#---------------oj area----------------------------
+alias django='nautilus /usr/local/lib/python2.7/dist-packages/django '
+alias ooj='nautilus ~/oj/oj '
+alias dir='nautilus . '
+alias home='nautilus ~ '
+alias oj='cd ~/oj/oj '
+alias tws='cd ~/tws '
+alias is='cd ~/IS'
+alias run='python manage.py runserver '
+alias server="cd ~/oj/oj/Server && python server.py"
+alias orun='python manage.py runserver 0.0.0.0:8000'
+
+#---------------git area---------------------------
+alias status='git status '
+alias add='git add . && git add -u'
+alias commit='git commit -m '
+alias pull='git pull bimoku master '
+alias push='git push bimoku master '
+alias master='git push origin master'
+alias dif='git diff '
+alias log='git log '
+alias amend='git commit --amend'
+alias reset='git reset --hard '
+alias hysy="git push origin forum_ysyong"
+
+#----------------others--------------------------
+alias del='find -name "*.zip" -delete'
+alias ndel='find ! -name "*.zip" -delete'
+alias c='clear '
+alias plan='gedit ~/plan.txt'
+alias shut="sudo shutdown -h "
+alias wall="sudo python ~/Downloads/goagent-goagent-7333428/local/proxy.py"
+alias h="subl ~/heart.txt"
+alias ch="google-chrome "
+alias song="rhythmbox"
+alias ati="cd ~/Downloads && sudo sh /usr/share/ati/fglrx-uninstall.sh && sudo sh ./amd-driver-installer-catalyst-13-4-x86.x86_64.run"
+alias conf="sudo subl /etc/X11/xorg.conf"
+alias look="gnome-tweak-tool"
+alias mysql="mysql -uroot -p123456"
+alias load="mysql -uroot -p123456 "
+alias dump="mysqldump -uroot -p123456"
+alias s56='ssh root@222.196.35.56'
+#cs.swust.controller
+alias s143='ssh 222.196.35.143'
+alias jq='subl ~/jquery/speed/jquery-basis.js'
+alias ml='thunderbird'
+#oj22oj
+# Virtual 5000 2000
+# Viewport 0 0
+# Depth 24
+
+alias sv='sudo ssh root@118.122.115.120 -p 2681'
+alias sv2='sudo ssh yinshiyong@118.122.115.120 -p 2681'
+#jiangnanyunwang
+#yZ8dZs2k
+
+################php develop########################
+alias pci='sudo subl /var/www/bimoku'
+alias pci2='sudo subl /var/www/ziyunwan'
+
+#CREATE USER 'gitlab@localhost' IDENTIFIED BY 'gitlabbimoku';
+#CREATE USER git WITH PASSWORD 'your-password-here';
+#sudo cp -r `find -maxdepth 1 ! -name "." ! -name "images"` ../noimages/
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+alias kif="cd /var/www/bimoku"

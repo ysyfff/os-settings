@@ -1,0 +1,1 @@
+cat ~/Downloads/bashrc.txt >> ~/.bashrc
