@@ -21,6 +21,10 @@ sudo apt-get install git
 echo '>>>>>>>>>>>>>>>>>>>> git was done! <<<<<<<<<<<<<<<<<<<<'
 
 
+sudo apt-get install gitk
+echo '>>>>>>>>>>>>>>>>>>>> gitk was done! <<<<<<<<<<<<<<<<<<<<'
+
+
 sudo apt-get install nautilus-open-terminal
 echo '>>>>>>>>>>>>>>>>>>>> nautilus was done! <<<<<<<<<<<<<<<<<<<<'
 
