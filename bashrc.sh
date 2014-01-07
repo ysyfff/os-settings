@@ -1,1 +1,1 @@
-cat ~/Downloads/bashrc.txt >> ~/.bashrc
+cat ~/Downloads/os-settings/bashrc.txt >> ~/.bashrc
