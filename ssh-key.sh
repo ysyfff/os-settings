@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 
 ssh-keygen -t rsa -C "1156546473@qq.com"

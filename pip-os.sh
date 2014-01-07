@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 
 sudo pip install django==1.5.1
