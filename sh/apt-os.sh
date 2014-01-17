@@ -58,8 +58,10 @@ sudo apt-get purge ibus ibus-gtk ibus-gtk3
 sudo apt-get purge ibus-pinyin ibus-table python-ibus
 killall ibus-daemon
 rm -rf ~/.config/ibus
+sudo apt-get autoremove scim
 sudo apt-get install fcitx
-sudo apt-get install fcitx-sogoupinyin
+sudo apt-get install im-switch
+im-switch -s fcitx
 echo '>>>>>>>>>>>>>>>>>>>> sougoupinyin was done! <<<<<<<<<<<<<<<<<<<<'
 
 
