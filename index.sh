@@ -2,6 +2,7 @@
 
 
 ./apt-os.sh
+./set-git.sh
 ./dld-os.sh
 ./pip-os.sh
 ./ppa-os.sh
