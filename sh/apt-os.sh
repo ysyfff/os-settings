@@ -67,3 +67,6 @@ echo '>>>>>>>>>>>>>>>>>>>> sougoupinyin was done! <<<<<<<<<<<<<<<<<<<<'
 
 sudo apt-get install python-requests
 echo '>>>>>>>>>>>>>>>>>>>> python-requests was done! <<<<<<<<<<<<<<<<<<<<'
+
+sudo apt-get install yakuake
+echo '>>>>>>>>>>>>>>>>>>>> yakuake was done! <<<<<<<<<<<<<<<<<<<<'
