@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 echo '1'
 sudo touch /etc/apt/sources.list.d/google.list
 sudo chmod 777 /etc/apt/sources.list.d/google.list
