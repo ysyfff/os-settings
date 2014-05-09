@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install flashplugin-installer
+echo '>>>>>>>>>>>>>>>>>>>> flash was added! <<<<<<<<<<<<<<<<<<<<'
 
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 echo '>>>>>>>>>>>>>>>>>>>> sublime was added! <<<<<<<<<<<<<<<<<<<<'
