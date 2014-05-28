@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+sudo apt-get install python-pip
+echo '>>>>>>>>>>>>>>>>>>>> pip was done! <<<<<<<<<<<<<<<<<<<<'
+
+
 sudo pip install django==1.5.1
 echo '>>>>>>>>>>>>>>>>>>>> django was done! <<<<<<<<<<<<<<<<<<<<'
 
