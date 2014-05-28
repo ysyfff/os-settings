@@ -23,4 +23,6 @@ sudo apt-get install nodejs
 echo '>>>>>>>>>>>>>>>>>>>> nodejs was done! <<<<<<<<<<<<<<<<<<<<'
 sudo apt-get install npm
 echo '>>>>>>>>>>>>>>>>>>>> npm was done! <<<<<<<<<<<<<<<<<<<<'
+sudo apt-get install gnome
+
 
